@@ -10,7 +10,7 @@ import {openModal} from './modules/modal';
 window.addEventListener('DOMContentLoaded', () => {
     const modalTimer = setTimeout(() => openModal('.modal', modalTimer), 50000);
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
-    timer('.timer', '2022-06-20');
+    timer('.timer', '2022-08-08');
     slider({
         container: '.offer__slider', 
         slide: '.offer__slide', 
